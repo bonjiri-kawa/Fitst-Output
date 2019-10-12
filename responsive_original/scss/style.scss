@@ -1,0 +1,558 @@
+// ==============================
+// 変数
+// ==============================
+$font-color_default: #777;
+$font-color_date: #e37b89;
+$color_corp: #e3a8b1;
+$font-color_sub1: #b6a489;
+
+$site-width: 980px;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+$font-size_4l: 45px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+
+$font-family_corp: 'Amatic SC', cursive;
+
+// メディアクエリのブレークポイント設定
+
+//@media screen and (max-width: 414px){
+//  .btn{
+//    font-size: .7em;
+//  }
+//}
+
+// 通常、変数として設定しておくと後々変更しやすくて便利
+//  !defaultはすでに変数に値が入っていた場合は何もせず、変数に値が入っていない時に割り当てられるもの
+// https://hail2u.net/blog/webdesign/how-to-use-bang-default-flag-in-sass-and-how-it-works.html
+//$breakpoint-sm: 400px !default;
+//$breakpoint-md: 768px !default;
+//$breakpoint-lg: 1000px !default;
+
+// マップ型変数を使うと便利
+$breakpoints: (
+  'sm': 'screen and (max-width: 414px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 1000px)',
+  'xl': 'screen and (max-width: 1200px)',
+) !default;
+
+// ==============================
+// mixin
+// ==============================
+// @mixinは関数のようなものを作れる
+// https://www.webcreatorbox.com/tech/sass-mixin
+// map-get()の第一引数に変数名、第二引数にマップ型のキーを渡すと、マップ型の値が返る
+// #{}は「インターポーレーション」といって、演算できない箇所、変数使えない箇所でも使えるようにするものcalcなどでよく使う
+// http://book.scss.jp/code/c4/08.html
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+// ==================================
+// base
+// ==================================
+html, body {
+  width: 100%;
+  color: $font-color_default;
+  font-size: $font-size_default;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; // TODO:リファクタ必要（変数にする）
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em;
+}
+
+p, a {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: $font-color_default;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: $color_corp;
+  transition: .3s;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+// ==================================
+// header
+// ==================================
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  color: $font-color_default;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: $space_xl;
+  padding-right: $space_xl;
+  position: fixed;
+  transition: .3s;
+  z-index: 2;
+  background: rgba(234, 241, 164, 0.5);
+  &.float-active {
+    transition: .3s;
+    background: rgba(255, 234, 249, 0.5);
+  }
+  @include mq() {
+    height: 60px;
+    padding-right: $space_l;
+    padding-left: $space_l;
+  }
+  .title {
+    font-size: $font_size_3l;
+    font-family: $font-family_corp;
+    font-weight: bold;
+
+  }
+
+}
+
+// ==================================
+// menu
+// ==================================
+.nav-menu{
+  @include mq(){
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: rgba(255, 255, 255, .85);
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    transition: .5s;
+    &.active {
+      transition: .5s;
+      transform: translateX(-100%);
+      z-index: 2;
+    }
+  }
+}
+/* @include mq() { // TODO:リファクタ必要（PCで修正が入る際も考えてincludeはクラスの中に書く）
+  .nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: rgba(255, 255, 255, .85);
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    transition: .5s;
+    &.active {
+      transition: .5s;
+      transform: translateX(-100%);
+      z-index: 2;
+    }
+  }
+} */
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: $font-size_xl;
+  font-family: $font-family_corp;
+  &-item {
+    margin-right: $space_xl;
+  }
+  &-link {
+    -webkit-font-smoothing: initial;
+  }
+  @include mq() {
+    display: block;
+    font-size: $font-size_xxl;
+    &-item {
+      margin-right: initial;
+    }
+    &-link {
+      -webkit-font-smoothing: initial;
+      display: block;
+      padding: $space_l;
+      text-align: center;
+    }
+  }
+}
+
+// https://www.nxworld.net/tips/12-css-hamburger-menu-active-effect.html
+.menu-trigger {
+  display: none;
+  @include mq() {
+    display: inline-block;
+  }
+  transition: all .4s;
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 32px;
+  z-index: 3;
+  span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $font-color_default;
+    border-radius: 4px;
+    &:nth-of-type(1) {
+      top: 0;
+    }
+    &:nth-of-type(2) {
+      top: 14px;
+    }
+    &:nth-of-type(3) {
+      bottom: 0;
+    }
+  }
+  &.active span {
+    &:nth-of-type(1) {
+      transform: translateY(12px) rotate(-45deg);
+    }
+    &:nth-of-type(2) {
+      opacity: 0;
+    }
+    &:nth-of-type(3) {
+      transform: translateY(-15px) rotate(45deg);
+    }
+  }
+}
+
+// ==================================
+// hero
+// ==================================
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-title {
+    font-size: 80px;
+    font-family: $font-family_corp;
+    color: rgba(104, 9, 128, 0.3);
+    text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
+    @include mq() {
+      text-align: center;
+    }
+  }
+  br {
+    display: none;
+    @include mq() {
+      display: block;
+    }
+  }
+}
+
+// ==================================
+// container
+// ==================================
+.container {
+  width: $site-width;
+  @include mq() {
+    width: 100%;
+  }
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  &-fluid {
+    width: 100%;
+  }
+  &-title {
+    font-family: $font-family_corp;
+    text-align: center;
+    font-size: $font-size_3l;
+    margin-bottom: $space_3l;
+    @include mq() {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  &-body {
+    @include mq() {
+      padding-left: $space_l;
+      padding-right: $space_l;
+    }
+  }
+  &-ornament {
+    .container-title {
+      span { // TODO: リファクタ必要（span以外を使うことも考えてclass名で指定すること）
+        display: inline-block;
+        background: #fff;
+        padding: 0 10px;
+        position: relative;
+        z-index: 1;
+      }
+      &:before, &:after {
+        border-top: 1px solid #2e1f1a;
+        content: "";
+        display: block;
+        position: relative;
+        z-index: 0;
+      }
+      &:before {
+        top: 28px;
+      }
+      &:after {
+        top: -28px;
+      }
+      &-lightGray {
+        span {
+          background: #f8f7fc;
+        }
+      }
+    }
+  }
+}
+
+// ==================================
+// news
+// ==================================
+.news {
+  width: 70%;
+  height: 60px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #f8f7fc; // TODO:リファクタ必要（複数使いまわしている箇所があるため、変数にまとめる）
+  padding: $space_l $space_xl;
+  &-item {
+    margin-bottom: $space_s;
+  }
+  &-date {
+    color: $font-color_date;
+    font-weight: bold;
+    font-family: $font-family_corp;
+    -webkit-font-smoothing: initial;
+    margin-right: $space_m;
+  }
+  &-title {
+    font-size: $font-size_m;
+  }
+}
+
+// ==================================
+// panel
+// ==================================
+.panel {
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  transition: .5s;
+  &-hover {
+    display: inline-block;
+    transition: .5s;
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+      transition: .5s;
+    }
+  }
+  &-border {
+    border-radius: 5px;
+    border: 5px solid #f6f5f4;
+  }
+  &-head, &-foot {
+    padding: $space_m;
+  }
+  &-head {
+    text-align: center;
+    color: $color_corp;
+  }
+  &-body{
+    display: inline-block;
+    height: 200px;
+  }
+  &-active {
+    border: 5px solid $color_corp;
+  }
+  &-badge {
+    background: #e37b89;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-size: $font-size_s;
+    transform: rotate(15deg);
+    @include mq() {
+      top: -20px;
+      right: -13px;
+    }
+  }
+  &-group {
+    margin-right: -$space_l;
+    &-float {
+      overflow: hidden;
+    }
+    &-flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .panel {
+      float: left;
+      margin-right: $space_l;
+      margin-bottom: $space_l;
+      box-sizing: border-box;
+    }
+  }
+  &-staff {
+    width: calc(25% - #{$space_l});
+    @include mq() {
+      width: calc(50% - #{$space_l});
+    }
+  }
+  &-cource {
+    width: calc(33.3% - #{$space_l});
+    @include mq() {
+      width: 100%;
+      margin: 0 auto $space_l auto;
+    }
+  }
+}
+
+// ==================================
+// form
+// ==================================
+.form {
+  width: 100%;
+  &-m {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    @include mq() {
+      width: 100%;
+    }
+  }
+}
+
+.input {
+  display: block;
+  margin-bottom: $space_m;
+  border: 3px solid #f6f5f4;
+  border-radius: 4px;
+  outline: none;
+  height: 60px;
+  font-size: $font-size_l;
+  color: $font-color_default;
+  box-sizing: border-box;
+  &-l {
+    padding: 5px 10px;
+    width: 100%;
+  }
+  &:focus {
+    border: 3px solid $color_corp;
+  }
+  &-textarea {
+    height: 200px;
+  }
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+// ==================================
+// btn
+// ==================================
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: .3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  &:hover {
+    transform: translateY(-3px);
+    transition: .3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  &-corp {
+    // グラーデーション参考 https://uigradients.com/
+    color: #fff;
+    background: #ee9ca7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  &-l {
+    padding: $space_l $space_xxl;
+    width: 100%;
+    font-size: $font-size_l;
+  }
+}
+
+// ==================================
+// footer
+// ==================================
+.footer {
+  background: rgba(168, 168, 165, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  @include mq() {
+    font-size: $font-size_s;
+  }
+}
+
+// ==================================
+// Utility
+// ==================================
+.bgColor-lightGray { // TODO:リファクタ必要（色が後から修正が入り、赤色になったら？）
+  background: #f8f7fc;
+  box-shadow: 0px 0px 8px 2px #ddd inset;
+}
+
+.mb-xxl {
+  margin-bottom: $space_xxl;
+}
+
+.ft-corp {
+  font-weight: bold;
+  font-family: $font-family_corp;
+}
+
+.ft-l {
+  font-size: $font-size_xl;
+}
+
+// 宿題その１：SP（スマホ）でハンバーガーメニューを開いて、メニューをクリックした際に自動でメニューが閉じる様にしてみよう！
+// 宿題その２：iPad（768px）用のレイアウトも作成してみよう！（メニューボタンを非表示。.containerの横幅を100%に。右に出てしまう余白はなぜだろう？）
