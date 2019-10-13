@@ -90630,3 +90630,4952 @@ Stack trace:
 )
 
 [12-Oct-2019 13:25:58 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:28 UTC] デバッグ：「トップページ
+[13-Oct-2019 14:01:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:28 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:28 UTC] デバッグ：セッションID:lrcgl8eisro6v4ab2nrn8u7fig
+[13-Oct-2019 14:01:28 UTC] デバッグ：現在の日時タイムスタンプ:1570975288
+[13-Oct-2019 14:01:28 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:28 UTC] デバッグ：商品情報を取得します
+[13-Oct-2019 14:01:28 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:28 UTC] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[13-Oct-2019 14:01:28 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:28 UTC] デバッグ：カテゴリー情報を取得します
+[13-Oct-2019 14:01:28 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:28 UTC] デバッグ：現在のページ:1
+[13-Oct-2019 14:01:28 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:29 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:29 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:29 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:29 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:29 UTC] デバッグ：セッションID:5lssueea4qvqvs4kdubvdbdi1t
+[13-Oct-2019 14:01:29 UTC] デバッグ：現在の日時タイムスタンプ:1570975289
+[13-Oct-2019 14:01:29 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:29 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:29 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:29 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:29 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:29 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:29 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:29 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:29 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:33 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:33 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:33 UTC] デバッグ：セッションID:07607sivnffc2sjefvnvh5699u
+[13-Oct-2019 14:01:33 UTC] デバッグ：現在の日時タイムスタンプ:1570975293
+[13-Oct-2019 14:01:33 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:33 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:33 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:33 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:33 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:33 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:33 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:33 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:33 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:34 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:34 UTC] デバッグ：「商品出品登録ページ
+[13-Oct-2019 14:01:34 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:34 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:34 UTC] デバッグ：セッションID:knr0i2mbnq3tkbdn9o75dvsn8r
+[13-Oct-2019 14:01:34 UTC] デバッグ：現在の日時タイムスタンプ:1570975294
+[13-Oct-2019 14:01:34 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:34 UTC] デバッグ：カテゴリー情報を取得します
+[13-Oct-2019 14:01:34 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:34 UTC] デバッグ：商品ID
+[13-Oct-2019 14:01:34 UTC] デバッグ：フォーム用DBデータ
+[13-Oct-2019 14:01:34 UTC] デバッグ：カテゴリーデータArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 花（一本）
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => 花（花束)
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => ブリザードフラワー
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => インテリア家具
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => 観葉植物
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => ハーバリウム
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => その他
+            [delete_flg] => 0
+            [create_date] => 2019-10-05 22:00:00
+            [update_date] => 2019-10-05 22:00:00
+        )
+
+)
+
+[13-Oct-2019 14:01:34 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:36 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:36 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:36 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:36 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:36 UTC] デバッグ：セッションID:30n23num0br6tmlpsqq002m86d
+[13-Oct-2019 14:01:36 UTC] デバッグ：現在の日時タイムスタンプ:1570975296
+[13-Oct-2019 14:01:36 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:36 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:36 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:36 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:36 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:36 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:36 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:36 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:36 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:37 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:37 UTC] デバッグ：「プロフィール編集ページ
+[13-Oct-2019 14:01:37 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:37 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:37 UTC] デバッグ：セッションID:pf1dso0el274rtefq3r6o1hdbn
+[13-Oct-2019 14:01:37 UTC] デバッグ：現在の日時タイムスタンプ:1570975297
+[13-Oct-2019 14:01:37 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:37 UTC] デバッグ：ユーザー情報を取得します
+[13-Oct-2019 14:01:37 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:37 UTC] デバッグ：取得したデータArray
+(
+    [id] => 1
+    [username] => 羊
+    [age] => 22
+    [tel] => 00000000000
+    [zip] => 0000000
+    [addr] =>  東京都
+    [email] => info@foryou.com
+    [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+    [login_time] => 2019-10-06 09:12:18
+    [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+    [delete_flg] => 0
+    [create_date] => 2019-10-06 09:12:18
+    [update_date] => 2019-10-08 14:41:51
+)
+
+[13-Oct-2019 14:01:37 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:38 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:38 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:38 UTC] デバッグ：セッションID:dbhvtmak5m7bcekft0mie56mt3
+[13-Oct-2019 14:01:38 UTC] デバッグ：現在の日時タイムスタンプ:1570975298
+[13-Oct-2019 14:01:38 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:38 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:38 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:38 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:38 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:38 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:38 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:38 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:38 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:40 UTC] デバッグ：「パスワード変更ページ
+[13-Oct-2019 14:01:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:40 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:40 UTC] デバッグ：セッションID:89i7ogop4e7bot9ffvdu5v4oao
+[13-Oct-2019 14:01:40 UTC] デバッグ：現在の日時タイムスタンプ:1570975300
+[13-Oct-2019 14:01:40 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:40 UTC] デバッグ：ユーザー情報を取得します
+[13-Oct-2019 14:01:40 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:40 UTC] デバッグ：取得したデータ:Array
+(
+    [id] => 1
+    [username] => 羊
+    [age] => 22
+    [tel] => 00000000000
+    [zip] => 0000000
+    [addr] =>  東京都
+    [email] => info@foryou.com
+    [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+    [login_time] => 2019-10-06 09:12:18
+    [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+    [delete_flg] => 0
+    [create_date] => 2019-10-06 09:12:18
+    [update_date] => 2019-10-08 14:41:51
+)
+
+[13-Oct-2019 14:01:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:41 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:41 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:41 UTC] デバッグ：セッションID:gkfciu6c9d43k46thklmqv3ith
+[13-Oct-2019 14:01:41 UTC] デバッグ：現在の日時タイムスタンプ:1570975301
+[13-Oct-2019 14:01:41 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:41 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:41 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:41 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:41 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:42 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:42 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:42 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:42 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:42 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:42 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:45 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:45 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:45 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:45 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:45 UTC] デバッグ：セッションID:ihbbabgko8eus0tnsttbksnbqo
+[13-Oct-2019 14:01:45 UTC] デバッグ：現在の日時タイムスタンプ:1570975305
+[13-Oct-2019 14:01:45 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:45 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:45 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:45 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:45 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:45 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:45 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:45 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:45 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:47 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:47 UTC] デバッグ：「トップページ
+[13-Oct-2019 14:01:47 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:47 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:47 UTC] デバッグ：セッションID:kpq4lj4dcvlgac141aj9rhnkdl
+[13-Oct-2019 14:01:47 UTC] デバッグ：現在の日時タイムスタンプ:1570975307
+[13-Oct-2019 14:01:47 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:47 UTC] デバッグ：商品情報を取得します
+[13-Oct-2019 14:01:47 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:47 UTC] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[13-Oct-2019 14:01:47 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:47 UTC] デバッグ：カテゴリー情報を取得します
+[13-Oct-2019 14:01:47 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:47 UTC] デバッグ：現在のページ:1
+[13-Oct-2019 14:01:47 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:51 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:51 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:51 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:51 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:51 UTC] デバッグ：セッションID:sd54v1bva881b3tqor5dsppupi
+[13-Oct-2019 14:01:51 UTC] デバッグ：現在の日時タイムスタンプ:1570975311
+[13-Oct-2019 14:01:51 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:51 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:51 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:51 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:51 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:51 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:51 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:51 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:51 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:52 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:52 UTC] デバッグ：「プロフィール編集ページ
+[13-Oct-2019 14:01:52 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:52 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:52 UTC] デバッグ：セッションID:o1oe5p6m4fupvjvh9mr9ucfp8g
+[13-Oct-2019 14:01:52 UTC] デバッグ：現在の日時タイムスタンプ:1570975312
+[13-Oct-2019 14:01:52 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:52 UTC] デバッグ：ユーザー情報を取得します
+[13-Oct-2019 14:01:52 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:52 UTC] デバッグ：取得したデータArray
+(
+    [id] => 1
+    [username] => 羊
+    [age] => 22
+    [tel] => 00000000000
+    [zip] => 0000000
+    [addr] =>  東京都
+    [email] => info@foryou.com
+    [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+    [login_time] => 2019-10-06 09:12:18
+    [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+    [delete_flg] => 0
+    [create_date] => 2019-10-06 09:12:18
+    [update_date] => 2019-10-08 14:41:51
+)
+
+[13-Oct-2019 14:01:52 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:54 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:54 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:01:54 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:54 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:54 UTC] デバッグ：セッションID:1nmlf7hg5oovunt8lk0jb3m9hk
+[13-Oct-2019 14:01:54 UTC] デバッグ：現在の日時タイムスタンプ:1570975314
+[13-Oct-2019 14:01:54 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:54 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:01:54 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:01:54 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:01:54 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:54 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:01:54 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:01:54 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:01:54 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13-Oct-2019 14:01:57 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:57 UTC] デバッグ：「パスワード変更ページ
+[13-Oct-2019 14:01:57 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:01:57 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:01:57 UTC] デバッグ：セッションID:95qbfda7d8f7titnrgbvb51kk1
+[13-Oct-2019 14:01:57 UTC] デバッグ：現在の日時タイムスタンプ:1570975317
+[13-Oct-2019 14:01:57 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:01:57 UTC] デバッグ：ユーザー情報を取得します
+[13-Oct-2019 14:01:57 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:01:57 UTC] デバッグ：取得したデータ:Array
+(
+    [id] => 1
+    [username] => 羊
+    [age] => 22
+    [tel] => 00000000000
+    [zip] => 0000000
+    [addr] =>  東京都
+    [email] => info@foryou.com
+    [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+    [login_time] => 2019-10-06 09:12:18
+    [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+    [delete_flg] => 0
+    [create_date] => 2019-10-06 09:12:18
+    [update_date] => 2019-10-08 14:41:51
+)
+
+[13-Oct-2019 14:02:03 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:02:03 UTC] デバッグ：「マイページ
+[13-Oct-2019 14:02:03 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「
+[13-Oct-2019 14:02:03 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[13-Oct-2019 14:02:03 UTC] デバッグ：セッションID:vdvjrfq2821o7ickl38b32hdna
+[13-Oct-2019 14:02:03 UTC] デバッグ：現在の日時タイムスタンプ:1570975323
+[13-Oct-2019 14:02:03 UTC] デバッグ：ログイン日時タイムスタンプ:1570545418
+[13-Oct-2019 14:02:03 UTC] デバッグ：自分の商品情報を取得します
+[13-Oct-2019 14:02:03 UTC] デバッグ：ユーザーID:1
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：自分のmsg情報を取得します。
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：自分のお気に入り情報を取得します
+[13-Oct-2019 14:02:03 UTC] デバッグ：ユーザーID：1
+[13-Oct-2019 14:02:03 UTC] デバッグ：クエリ成功
+[13-Oct-2019 14:02:03 UTC] デバッグ：取得した商品データArray
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 薔薇
+            [category_id] => 1
+            [comment] => 我が家に咲いている薔薇です。注文していただいた際に、もっとも綺麗に咲いてるな。と思ったものをお送りさせていただきます。
+簡単な包装をしてお送りいたしますので、ご了承ください。
+            [price] => 100
+            [pic1] => uploads/f47e3e2ff5b064c32b578a0e3c3f219f02375135.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 13:32:52
+            [update_date] => 2019-10-06 22:32:52
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => 家に咲いてる花での花束
+            [category_id] => 2
+            [comment] => 家に咲いているダリアやバラ、ガーベラなど華やかなオレンジ系のお色味が、明るい気分にさせてくれるデザインです。
+            [price] => 3000
+            [pic1] => uploads/6588fa83c5840fee9cfb87d06aac1901d6c83642.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:52:03
+            [update_date] => 2019-10-07 16:52:03
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => 薔薇のブリザードフラワー
+            [category_id] => 3
+            [comment] => 薔薇で作ったブリザードフラワーです。大切なかたへの贈り物にどうですか。
+            [price] => 6000
+            [pic1] => uploads/ba38b34d53235d111e038b3d16b065c30816d7ea.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-07 07:54:36
+            [update_date] => 2019-10-07 16:54:36
+        )
+
+)
+
+[13-Oct-2019 14:02:03 UTC] デバッグ：取得した掲示板データ:Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:15:48
+            [update_date] => 2019-10-07 02:15:48
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:18:13
+            [update_date] => 2019-10-07 02:18:13
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:22:39
+            [update_date] => 2019-10-07 02:22:39
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:24:41
+            [update_date] => 2019-10-07 02:24:41
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 18
+            [sale_user] => 1
+            [buy_user] => 5
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:27:23
+            [update_date] => 2019-10-07 02:27:23
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 19
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:31:45
+            [update_date] => 2019-10-07 02:31:45
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 20
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:32:36
+            [update_date] => 2019-10-07 02:32:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:47:06
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:47:06
+                            [update_date] => 2019-10-07 02:47:06
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 20
+                            [send_date] => 2019-10-06 17:32:42
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => ssss
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:32:42
+                            [update_date] => 2019-10-07 02:32:42
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 21
+            [sale_user] => 1
+            [buy_user] => 1
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:11
+            [update_date] => 2019-10-07 02:49:11
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 21
+                            [send_date] => 2019-10-06 17:49:17
+                            [to_user] => 1
+                            [from_user] => 1
+                            [msg] => ddd
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:49:17
+                            [update_date] => 2019-10-07 02:49:17
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [username] => 羊
+                            [age] => 22
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] =>  東京都
+                            [email] => info@foryou.com
+                            [password] => $2y$10$wEcPEN3HXvPSCZiN4tfzaOdD5N3odgJrSjJFg6tZnE3vGSTOpToLq
+                            [login_time] => 2019-10-06 09:12:18
+                            [pic] => uploads/bab0c84abb84b3176aa638f8e2e125255931ca74.png
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:12:18
+                            [update_date] => 2019-10-08 14:41:51
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 22
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:49:57
+            [update_date] => 2019-10-07 02:49:57
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 22
+                            [send_date] => 2019-10-06 17:50:08
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => kkkkkk
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 17:50:08
+                            [update_date] => 2019-10-07 02:50:08
+                        )
+
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 23
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-10 13:45:10
+            [update_date] => 2019-10-10 22:45:10
+            [msg] => Array
+                (
+                )
+
+            [partner_info] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [username] => 太郎
+                            [age] => 24
+                            [tel] => 00000000000
+                            [zip] => 0000000
+                            [addr] => 東京都中野区
+                            [email] => info1@foryou.com
+                            [password] => $2y$10$/YYmBsvDxebPB59fkqMbS.3QXXhHPKGeZ1iirEAnVFiB9PG/AlAam
+                            [login_time] => 2019-10-06 09:13:27
+                            [pic] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+                            [delete_flg] => 0
+                            [create_date] => 2019-10-06 09:13:27
+                            [update_date] => 2019-10-08 14:29:59
+                        )
+
+                )
+
+        )
+
+)
+
+[13-Oct-2019 14:02:03 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 2
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-10-06 17:34:57
+            [update_date] => 2019-10-07 02:34:57
+            [id] => 2
+            [name] => 紫陽花
+            [category_id] => 1
+            [comment] => 庭の紫陽花です！
+            [price] => 100
+            [pic1] => uploads/59f24c5b346f3c3079e307bdc41fdb20910bd405.jpeg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[13-Oct-2019 14:02:03 UTC] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
